@@ -2,9 +2,13 @@
 
 python cdpi-main/NSTdpifws/dpiregressionfw/bin/scripts/regression.py --dpisim-package buildout/dpisim_epg_package.tgz -p CUPS cdpi-main/NSTtests/dpiregression/suites/suite_cups_appID_rule_interaction.xml 
 
-Compiling EPG
+### Compiling EPG
+
+https://wiki.lmera.ericsson.se/wiki/EPG/Infrastructure/BuildSystem/Overview
+
 
 "build -c lin up/all"  --> Compilar el user plane
+"build -c lin.debug up/all -r " --> Compilar up en debug y correr los tess
 
 build -c lin data-plane_upf_DPI_2_UPSFTSUITE --> Compilar un test case
 
@@ -12,7 +16,7 @@ build -c lin data-plane_upf_DPI_2_UPSFTSUITE --> Compilar un test case
 ./build/Linux_x86_64/bin/data-plane_upf_DPI_2_UPSFTSUITE/data-plane_upf_DPI_2_UPSFTSUITE_Linux_x86_64.elf -vvv TC21922  --> ver la salida del comando
 
 
-Compile DPI
+### Compile DPI
 
 From a dpi shell, execute the following.
 

@@ -17,3 +17,6 @@ tui-enable --> Enable tui
 
 tui-disable --> Disable tui
 
+
+
+print $_siginfo
