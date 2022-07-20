@@ -24,3 +24,12 @@ Build data-plane only
 ./bob/bob set-artifact-type:debug; bob/bob image:prepare; bob/bob image:set-params; bob/bob image:data-plane
 
 
+## Bob phases
+
+see ruleset2.0.yaml
+
+bob init pull generate build image helm lint bench push
+
+
+
+

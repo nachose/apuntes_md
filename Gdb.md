@@ -19,4 +19,14 @@ tui-disable --> Disable tui
 
 
 
-print $_siginfo
+### Signal of a crash
+
+print $_siginfo --> Information about the last signal sent.
+
+
+### Continuosly display smth
+
+display var --> display value of var each time the program stops
+
+undisplay number --> stop displaying number
+
