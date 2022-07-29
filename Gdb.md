@@ -17,6 +17,17 @@ tui-enable --> Enable tui
 
 tui-disable --> Disable tui
 
+x /s ptr --> Display null terminated string pointed by ptr.
+
+whatis variable --> Only show type of variable
+
+### Show a string faithfully
+
+call (void)puts(0x1edbec0)  --> Use the address pointing to the string.
+
+
+
+
 
 
 ### Signal of a crash
